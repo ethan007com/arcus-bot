@@ -1,0 +1,8 @@
+.venv/
+runtime/
+*.log
+*.bak
+*.bak.*
+__pycache__/
+*.pyc
+config.json
