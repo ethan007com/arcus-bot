@@ -6,3 +6,15 @@ runtime/
 __pycache__/
 *.pyc
 config.json
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519
+id_ed25519.pub
+
+# Local test backups
+bot.py.before-*
